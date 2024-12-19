@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+   
+}
+
+div {
+    margin: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #eaeaea;
+    border-radius: 5px;
+    margin-top: 10px;
+    
+}
+#title {
+    font-size: 60px; 
+    text-align: center;
+    margin-top: 20px;
+    font-family:'Futura', 'Century Gothic', sans-serif;
+    font-weight: bold;
+    color: #3e65ae;
+}
+#preview {
+    border-radius: 10px;
+}
+.container {
+    max-width: 800px; 
+    margin: 0 auto; 
+    padding: 0 10%; 
+    background-color:#ffffff;; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    padding: 20px; 
+    border-radius: 10px;
+   
+}
+#imageInput {
+    margin-top: 10px; /* 상단에 20px의 여백 추가 */
+    margin-bottom: 5px; /* 하단에 20px의 여백 추가 (선택 사항) */
+}
+#label-container {
+    font-size: 2em; /* 글씨 크기를 2배로 설정 */
+    font-weight: bold; /* 글씨를 굵게 설정 (선택 사항) */
+    text-align: center; /* 텍스트를 중앙 정렬 */
+    margin-top: 30px; /* 위쪽 여백 추가 */
+    color: #333; /* 글씨 색상 설정 */
+}
+
+/* 각 시즌별 색상 */
+.spring {
+    color: #FF6347; /* 봄 - 토마토 색상 */
+}
+
+.summer {
+    color: #FFD700; /* 여름 - 금색 */
+}
+
+.autumn {
+    color: #FF8C00; /* 가을 - 오렌지 색상 */
+}
+
+.winter {
+    color: #1E90FF; /* 겨울 - 파란색 */
+}
+
+/* 마우스를 올렸을 때 색상 변화 */
+.spring:hover {
+    color: #FF4500; /* 봄에 마우스를 올리면 색상 변화 */
+}
+
+.summer:hover {
+    color: #FF8C00; /* 여름에 마우스를 올리면 색상 변화 */
+}
+
+.autumn:hover {
+    color: #8B4513; /* 가을에 마우스를 올리면 색상 변화 */
+}
+
+.winter:hover {
+    color: #4682B4; /* 겨울에 마우스를 올리면 색상 변화 */
+}

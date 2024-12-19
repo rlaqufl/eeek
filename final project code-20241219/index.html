@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snap the Season</title>
+    <link rel="stylesheet" href="d.css"> 
+</head>
+<body>
+    <header>
+        <h1 id="title">
+           Snap the Season
+        </h1>
+    </header>
+
+    <div class="container">
+        <input type="file" id="imageInput" accept="image/*">
+        <div id="preview">
+            <img src="intro.png" id="uploadedImage" alt="Uploaded Image">
+        </div>
+
+        <div id="label-container"></div>
+        <div id="test"></div>
+        
+    </div>
+
+<!-- 모델의 예측 결과를 표시할 컨테이너 -->
+<div id="label-container"></div>
+
+<!-- 테스트를 표시할 컨테이너 -->
+<div id="test"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest/dist/tf.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@latest/dist/teachablemachine-image.min.js"></script>
+<script src="dd.js"></script> 
+</body>
+</html>
+

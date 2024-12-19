@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 전체 페이지 스타일 */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            text-align: center;
+        }
+
+        h1 {
+            margin-top: 20px;
+            font-size: 2em;
+            color: #333;
+        }
+
+        /* 이모티콘 스타일 */
+        .emoji {
+            font-size: 3em;
+            margin-top: 20px;
+        }
+
+        /* 사진 갤러리 스타일 */
+        .gallery {
+            display: grid; /* 변경: flex → grid */
+            grid-template-columns: repeat(2, 1fr); /* 2개의 열로 정렬 */
+            gap: 20px; /* 사진 간의 간격 */
+            margin-top: 30px;
+            padding: 0 10%;
+        }
+
+        .gallery img {
+            width: 100%; /* 열을 100% 차지하도록 조정 */
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .gallery .caption {
+            font-size: 1em;
+            color: #555;
+            margin-top: 8px;
+        }
+
+        /* 돌아가기 버튼 스타일 */
+        a {
+            display: block;
+            margin-top: 20px; /* 더 위로 이동 */
+            text-decoration: none;
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+     <!-- 제목 -->
+     <h1>계절별 옷차림</h1>
+
+     <!-- 이모티콘 -->
+     <div class="emoji">🌳</div>
+ 
+     <!-- 사진 갤러리 -->
+     <div class="gallery">
+         <div>
+             <img src="tee.jpg" alt="사진 1">
+             <div class="caption">반팔티</div>
+         </div>
+         <div>
+             <img src="shorts.jpg" alt="사진 2">
+             <div class="caption">반바지</div>
+         </div>
+         <div>
+             <img src="linen.jpg" alt="사진 3">
+             <div class="caption">얇은 셔츠</div>
+         </div>
+         <div>
+             <img src="sleeveless.jpg" alt="사진 4">
+             <div class="caption">반바지</div>
+         </div>
+     </div>
+ 
+     <a href="index.html">돌아가기</a>
+</body>
+</html>
